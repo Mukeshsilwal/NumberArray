@@ -34,15 +34,5 @@ public class ArrayManipulation {
             }
             i++;
         }
-
-        //Again we compare if the length of the array are same
-        if(arr.length==arr1.length){
-            System.out.println("Arrays have same size");
-        }
-        else if (arr.length < arr1.length) {
-            System.out.println("Array 2 is larger than Array 1.");
-        } else {
-            System.out.println("Array 1 is larger than Array 2.");
-        }
     }
 }
