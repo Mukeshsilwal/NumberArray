@@ -30,7 +30,7 @@ public class Main {
         int[] result1=ArrayManipulation.ascendingSort(arr1);
         System.out.println("Sorted second array :"+ Arrays.toString(result1));
 
-        //Compare the elements and length of the arrays
+        //Compare the elements of the arrays
         ArrayManipulation.ascendAndCompare(result,result1);
 
 
